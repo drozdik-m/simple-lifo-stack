@@ -1,9 +1,9 @@
 
-![Stack class - banner](images/heading-image.png?raw=true "Stack - easy and light stack")
+![Stack class - banner](images/heading-image.png?raw=true "Stack - simple and light stack")
 
 # Stack
 
-"Stack" is a **simple lifo stack class**. This module is easy to use, light, small and has **no dependencies**, except assert-testing module for testing (not needed for usage).
+"Stack" is a **simple stack class**. This module is easy to use, light, small and has **no dependencies**, except assert-testing module for testing (not needed for usage).
 
 The module is written in TypeScript and compiled into commonJS. 
 
@@ -66,7 +66,7 @@ You may ask, why would anyone want or need this. It can be easily made with an a
 
 Perfect example of the stack is checking, if a text has correctly paired brackets. You iterate the text letter by letter and every time you see a bracket, you do one of two actions: If the bracket on the top of the stack is the same you currently hold, you put the holding bracket in the stack. If the brackets are different, you remove the bracket on the top of the stack. When you iterate on the end of the text and the stack is empty, the brackets are paired correctly (every bracket has its partner). Otherwise some brackets are not paired correctly. Of course, you could use an array and remember an index, but the Stack class removes this excessive programming. 
 
-Summary: **This software implementation of stack is very useful in specific situations and algorithms**, but you probably won’t use it in everyday code. Even though JavaScript has its own implementation using an array, you might find this class more elegant.
+Summary: **This software implementation of stack is very useful in specific situations and algorithms**, but you probably won’t use it in everyday code. **Even though JavaScript has its own implementation using an array, you might find this class more elegant.**
 
 ## Usage
 
