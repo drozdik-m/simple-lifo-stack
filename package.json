@@ -1,0 +1,31 @@
+{
+  "name": "simple-lifo-stack",
+  "version": "1.0.0",
+  "description": "I am a simple man. I don’t need any insane magic stack with thousands of lines of never used methods. I just need a light, easy to use and reliable stack. Do you want the same think? Well nice, because I made one!",
+  "main": "dist/src/stack.js",
+  "typings": "dist/src/stack.d.ts",
+  "scripts": {
+    "test": "node dist/tests/stack_tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drozdik-m/simple-lifo-stack.git"
+  },
+  "keywords": [
+    "stack",
+    "lifo",
+    "light",
+    "easy",
+    "JavaScript",
+    "TypeScript"
+  ],
+  "author": "Martin Drozdík <info@bonsai-development.cz> (http://bonsai-development.cz)",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/drozdik-m/simple-lifo-stack/issues"
+  },
+  "homepage": "https://github.com/drozdik-m/simple-lifo-stack#readme",
+  "dependencies": {
+    "assert-testing": "^1.0.8"
+  }
+}
