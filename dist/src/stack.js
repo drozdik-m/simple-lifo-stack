@@ -17,7 +17,7 @@ var Stack = /** @class */ (function () {
     //----------METHODS---------------------------------
     //--------------------------------------------------
     /**
-     * Returns element on top of the stack
+     * Returns element on top of the stack (null if empty)
      * @returns Element on top of the stack
      */
     Stack.prototype.Top = function () {
@@ -33,7 +33,7 @@ var Stack = /** @class */ (function () {
         this.stackArray.push(item);
     };
     /**
-     * Removes element on top of the stack
+     * Removes element on top of the stack (doesn't return it)
      */
     Stack.prototype.Pop = function () {
         this.stackArray.pop();

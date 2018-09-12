@@ -8,7 +8,7 @@ export class Stack<T>
     //----------VARIABLES-------------------------------
     //--------------------------------------------------
     //Array storage
-    stackArray: T[] = [];
+    private stackArray: T[] = [];
 
     //--------------------------------------------------
     //---------CONSTRUCTOR------------------------------
@@ -23,7 +23,7 @@ export class Stack<T>
     //--------------------------------------------------
 
     /**
-     * Returns element on top of the stack
+     * Returns element on top of the stack (null if empty)
      * @returns Element on top of the stack
      */
     Top(): T
@@ -41,7 +41,7 @@ export class Stack<T>
         this.stackArray.push(item);
     }
     /**
-     * Removes element on top of the stack
+     * Removes element on top of the stack (doesn't return it)
      */
     Pop()
     {

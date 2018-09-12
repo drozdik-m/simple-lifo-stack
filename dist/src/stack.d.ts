@@ -1,8 +1,8 @@
 export declare class Stack<T> {
-    stackArray: T[];
+    private stackArray;
     constructor();
     /**
-     * Returns element on top of the stack
+     * Returns element on top of the stack (null if empty)
      * @returns Element on top of the stack
      */
     Top(): T;
@@ -12,7 +12,7 @@ export declare class Stack<T> {
      */
     Push(item: T): void;
     /**
-     * Removes element on top of the stack
+     * Removes element on top of the stack (doesn't return it)
      */
     Pop(): void;
     /**

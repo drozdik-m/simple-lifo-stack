@@ -1,6 +1,6 @@
 {
   "name": "simple-lifo-stack",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "I am a simple man. I don’t need any insane magic stack with thousands of lines of never used methods. I just need a light, easy to use and reliable stack. Do you want the same think? Well nice, because I made one!",
   "main": "dist/src/stack.js",
   "typings": "dist/src/stack.d.ts",
