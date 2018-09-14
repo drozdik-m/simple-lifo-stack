@@ -1,5 +1,5 @@
 
-![Stack class - banner](images/heading-image.png?raw=true "Stack - simple and light stack")
+![Stack class - banner](images/stack-heading-image.png?raw=true "Stack - simple and light stack")
 
 # Stack
 
@@ -66,7 +66,7 @@ You may ask, why would anyone want or need this. It can be easily made with an a
 
 Perfect example of the stack is checking, if a text has correctly paired brackets. You iterate the text letter by letter and every time you see a bracket, you do one of two actions: If the bracket on the top of the stack is the same you currently hold, you put the holding bracket in the stack. If the brackets are different, you remove the bracket on the top of the stack. When you iterate on the end of the text and the stack is empty, the brackets are paired correctly (every bracket has its partner). Otherwise some brackets are not paired correctly. Of course, you could use an array and remember an index, but the Stack class removes this excessive programming. 
 
-Summary: **This software implementation of stack is very useful in specific situations and algorithms**, but you probably won’t use it in everyday code. **Even though JavaScript has its own implementation using an array, you might find this class more elegant.**
+Summary: **This software implementation of stack is very useful in specific situations and algorithms**, but you probably won't use it in everyday code. **Even though JavaScript has its own implementation using an array, you might find this class more elegant.**
 
 ## Usage
 
@@ -80,7 +80,7 @@ import { Stack } from "simple-lifo-stack";
 //Instantiate new and empty Stack
 var stack = new Stack();
 
-//For TypeScript programmers: Stack in a generic class, so declaration in TypeScript would look like:
+//For TypeScript programmers: Stack is a generic class, so declaration in TypeScript would look like:
 let stack = new Stack<string>(); //<string> or whatever data type you want to store and work with
 
 ```
