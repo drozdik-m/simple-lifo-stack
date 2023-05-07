@@ -1,6 +1,3 @@
-
-![Stack class - banner](images/stack-heading-image.png?raw=true "Stack - simple and light stack")
-
 # Stack
 
 "Stack" is a **simple stack class**. This module is easy to use, light, small and has **no dependencies**, except assert-testing module for testing (not needed for usage).
@@ -110,7 +107,7 @@ stack.Top(); //Returns an element on the top (doesn't delete it)
 stack.Push(); //Pushes (adds) new element on the top
 
 stack.Pop(); //Removes (doesn't return) the top element
-//In some other stack classes (other languages or implementations), the Pop() method removes the top element and also returns top value. This class doesn't because of efficiency. Of you handle for example large strings, it would have to copy it, even if you don’t need it. It's more efficient this way, but you may need one more line of a code.
+//In some other stack classes (other languages or implementations), the Pop() method removes the top element and also returns top value. This class doesn't because of efficiency. Of you handle for example large strings, it would have to copy it, even if you donï¿½t need it. It's more efficient this way, but you may need one more line of a code.
 
 stack.Empty(); //Returns True if the stack is empty (== no values inserted)
 
